@@ -45,6 +45,7 @@ const routes = [
 
 //创建路由器
 const router = createRouter({
+    mode:'hash',
     history: createWebHistory(),
     routes: routes
 })
